@@ -1615,7 +1615,7 @@ rank_test_score,mean_test_score,std_test_score,param_model,params
              max_leaves=None, min_child_weight=None, missing=nan,
              monotone_constraints=None, multi_strategy=None, n_estimators=None,
              n_jobs=None, num_parallel_tree=None, ...), 'model__learning_rate': 0.5, 'model__max_depth': 1, 'model__n_estimators': 1000, 'poly': 'passthrough'}"
-97,-5.629488015038759,0.16341191067739558,LinearRegression(),"{'model': LinearRegression(), 'poly': PolynomialFeatures(), 'poly__degree': 3}"
+97,-5.629488015038801,0.16341191067743607,LinearRegression(),"{'model': LinearRegression(), 'poly': PolynomialFeatures(), 'poly__degree': 3}"
 98,-5.638247760512251,0.2963931342198599,"XGBRegressor(base_score=None, booster=None, callbacks=None,
              colsample_bylevel=None, colsample_bynode=None,
              colsample_bytree=None, device=None, early_stopping_rounds=None,
@@ -2022,7 +2022,7 @@ rank_test_score,mean_test_score,std_test_score,param_model,params
 121,-10.836200540439314,0.6958658176053071,RandomForestRegressor(random_state=42),"{'model': RandomForestRegressor(random_state=42), 'model__max_depth': 2, 'model__n_estimators': 200, 'poly': 'passthrough'}"
 122,-10.85268988469853,0.704760904721325,RandomForestRegressor(random_state=42),"{'model': RandomForestRegressor(random_state=42), 'model__max_depth': 2, 'model__n_estimators': 1000, 'poly': 'passthrough'}"
 123,-10.85277255159649,0.7020167772817826,RandomForestRegressor(random_state=42),"{'model': RandomForestRegressor(random_state=42), 'model__max_depth': 2, 'model__n_estimators': 500, 'poly': 'passthrough'}"
-124,-11.13858771690185,0.2967331967819983,LinearRegression(),"{'model': LinearRegression(), 'poly': PolynomialFeatures(), 'poly__degree': 2}"
+124,-11.138587716901815,0.29673319678201804,LinearRegression(),"{'model': LinearRegression(), 'poly': PolynomialFeatures(), 'poly__degree': 2}"
 125,-11.37786203527755,0.7345021424842576,"XGBRegressor(base_score=None, booster=None, callbacks=None,
              colsample_bylevel=None, colsample_bynode=None,
              colsample_bytree=None, device=None, early_stopping_rounds=None,

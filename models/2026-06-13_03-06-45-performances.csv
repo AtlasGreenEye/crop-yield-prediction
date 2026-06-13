@@ -1,0 +1,20 @@
+model_name,train_rmse,val_rmse,test_rmse
+MeanModel(),21.859361017121188,21.290746234720867,21.920411407571667
+LinearRegression(),12.753524339909479,12.395047042084224,12.930169930285597
+Lasso(),18.710430373766393,18.033054301911125,18.5448728110578
+Ridge(),14.781573900142075,14.37044381740867,14.752671066168688
+"Pipeline(steps=[('poly', PolynomialFeatures()), ('linear', LinearRegression())])",10.931246091796277,10.648873568296539,11.088531129529688
+SVR(),16.555261536976793,16.136343734504827,16.56177678326183
+DecisionTreeRegressor(),0.0,4.797645029865651,4.89732985808571
+RandomForestRegressor(random_state=42),1.470549459510758,3.8184972520494442,4.067429019820583
+"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)",0.8530260067237477,4.181470968446386,3.9488064264154237
