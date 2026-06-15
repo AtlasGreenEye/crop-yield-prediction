@@ -1,12 +1,12 @@
 model_name,train_rmse,val_rmse,test_rmse
-MeanModel(),21.859361017121188,21.290746234720867,21.77893799171135
-LinearRegression(),12.753524339909477,12.395047042084222,12.864286573607023
-Lasso(),18.710430373766393,18.033054301911122,18.42390206271571
-Ridge(),14.781573900142075,14.370443817408672,14.717542585363782
-"Pipeline(steps=[('poly', PolynomialFeatures()), ('linear', LinearRegression())])",10.931246091796282,10.648873568296537,11.034603351227766
-SVR(),16.555261536976793,16.136343734504827,16.480008978362196
-DecisionTreeRegressor(),0.0,4.863953749243739,4.982760878787231
-RandomForestRegressor(random_state=42),1.470549459510758,3.8184972520494442,4.097633599250534
+MeanModel(),21.85936102,21.29074623,21.77893799
+LinearRegression(),12.75352434,12.39504704,12.86428657
+Lasso(),18.71043037,18.0330543,18.42390206
+Ridge(),14.7815739,14.37044382,14.71754259
+"Pipeline(steps=[('poly', PolynomialFeatures()), ('linear', LinearRegression())])",10.93124609,10.64887357,11.03460335
+SVR(),16.55526154,16.13634373,16.48000898
+DecisionTreeRegressor(),0,4.863953749,4.982760879
+RandomForestRegressor(random_state=42),1.47054946,3.818497252,4.097633599
 "XGBRegressor(base_score=None, booster=None, callbacks=None,
              colsample_bylevel=None, colsample_bynode=None,
              colsample_bytree=None, device=None, early_stopping_rounds=None,
@@ -17,4 +17,4 @@ RandomForestRegressor(random_state=42),1.470549459510758,3.8184972520494442,4.09
              max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
              max_leaves=None, min_child_weight=None, missing=nan,
              monotone_constraints=None, multi_strategy=None, n_estimators=None,
-             n_jobs=None, num_parallel_tree=None, ...)",0.8530260067237477,4.181470968446386,4.160230489046356
+             n_jobs=None, num_parallel_tree=None, ...)",0.853026007,4.181470968,4.160230489
